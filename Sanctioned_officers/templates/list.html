@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<p>This is a list of sanctioned public officials</p>
+<ul>
+  {% for official in officials %}
+    <li><a href="{{ url_for('show', officialNumber=official.officialNumber) }}">{{ official.PublicOfficial }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

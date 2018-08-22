@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">{{ official.PublicOfficial }}</h1>
+  
+</div>
+
+<div class="row mb-5">
+  <div class="col-5">
+    <h3>Sanction information</h3>
+    <p>This public official worked at {{ official.Institution }}</p>
+    <p>Inhabilitated from {{ official.Begins }} to {{ official.Ends }}</p>
+    
+
+  </div>
+  
+
+{% endblock %}
