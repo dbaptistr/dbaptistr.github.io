@@ -1,21 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-      
-    <!-- Your CSS files -->
-    <link rel="stylesheet" href="style/app.css">
-    
-    <!-- google fonts: Roboto Condensed(super-font) and Lora(sub-font) -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet"> 
-
-    <title>Lede page</title>
-  </head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <style>
           .container {
@@ -59,12 +46,6 @@
             background: #fff880;
           }
 
-          .color-years {
-            padding: 1px 7px;
-            background: #018571;
-            -webkit-text-fill-color: azure
-          }
-
           .colored-text {
             padding: 1px 7px;
             display: inline-block;
@@ -102,58 +83,55 @@
           }
         </style>
   </head>
-
-  <body class="light-theme">
-    <div class="container"> <!-- start of the main container-->
-        <div class="row justify-content-center"><!-- headline and intro -->
-            <div class="col-lg-10 ">
-                <p class="kicker super-font">The refugee crisis in Mexico</p>
-                <p class="headline super-font">Seeking the Mexican dream</p>
-                <p class="credit super-font">BY DIANA BAPTISTA</p>
-                <p class="date sub-font">Published November 6, 2018</p>
-                <p class="body-text sub-font">
-                The increase of gang-related violence and political instability in Central America and Africa, paired with the strict immigration policy in the United States first adopted by Barack Obama and then tightened by President Donald Trump, have turned Mexico into the country of destination for refugees seeking asylum. How have the asylum requests changed during this political administration?
-                </p>
-            </div>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mt-5 mb-5">
+          <h1>Seeking the Mexican dream</h1>
         </div>
+      </div>
+
+
+
+
 
 
       <div class="row mt-5 mb-5">
+        <div class="col-sm-12">
+           <p>The increase of gang-related violence and political instability in Central America and Africa, paired with the strict immigration policy in the United States first adopted by Barack Obama and then tightened by President Donald Trump, have turned Mexico into the country of destination for refugees seeking asylum. How have the asylum requests changed during this political administration?</p>
+        </div>
         <div class="col-lg-8 sticky">
           <div id="chart-1"></div>
         </div>
         <div class="col-lg-4">
           <div class='step' id="blank-graph">
-              <p class="graph-text sub-font">
-            Six Latin American countries dominate the amount of asylum requests in Mexico.\nHaiti, the poorest country in the continent, has faced increasing turmoil following the 2010 earthquake that devastated it.
-            Guatemala, El Salvador and Honduras form the "Northern Triangle", an area dominated by criminal organizations involved in drug and human trafficking.</p>
-             </div>
+            <p>Six Latin American countries dominate the amount of asylum requests in Mexico. Haiti, the poorest country in the continent, has faced increasing turmoil following the 2010 earthquake that devastated it. Guatemala, El Salvador and Honduras form the "Northern Triangle", an area dominated by criminal organizations involved in drug and human trafficking.</p>
+          </div>
           <div class='step' id="first-graph">
               <h2>2013</h2>
-              <p class="graph-text sub-font">The political and economical crisis in Venezuela began, but only one person officialy applied for asylum. Hondurans running from gang-related violence were the main solicitors for protection.</p>
+              <p>The political and economical crisis in Venezuela began, but only one person officialy applied for asylum. Hondurans running from gang-related violence were the main solicitors for protection.</p>
           </div>
-          <div class='step' id='second-graph'>
+          <div class='step' id="second-graph">
               <h2>2014</h2>
-              <p class="graph-text sub-font">Requests from people of Honduras and El Salvador double. The trend will continue the next years. 
+              <p>Requests from people of Honduras and El Salvador double. The trend will continue the next years. 
               </div>
-          <div class='step' id='third-graph'>
+          <div class='step' id="third-graph">
               <h2>2015</h2>
-              <p class="graph-text sub-font">New presidents are elected in the "Northern Triangle", and gang violence continues to drive people away from their countries. 
+              <p>New presidents are elected in the "Northern Triangle", and gang violence continues to drive people away from their countries. 
                 </div>
-          <div class='step' id='fourth-graph'>
+          <div class='step' id="fourth-graph">
               <h2>2016</h2>
-              <p class="graph-text sub-font">Thousands of Haitians arrive to the northern border of Mexico, where a humanitarian crisis is declared. However, the asylum requests remain the same as previous years. 
+              <p>Thousands of Haitians arrive to the northern border of Mexico, where a humanitarian crisis is declared. However, the asylum requests remain the same as previous years. 
                 </div>      
-          <div class='step' id='fifth-graph'>
+          <div class='step' id="fifth-graph">
               <h2>2017</h2>
-              <p class="graph-text sub-font">The requests are at they historically highest. After the earthquake that struck Mexico on September 19, all the processes open to analyze asylum requests stop. Thousands arrive from Venezuela, running from the economic crisis. The yearly immigrant caravans coming from the Northern Triangle are more crowded than ever.
-                </div>   
+              <p>The requests are at they historically highest. After the earthquake that struck Mexico on September 19, all the processes open to analyze asylum requests stop. Thousands arrive from Venezuela, running from the economic crisis. The yearly immigrant caravans coming from the Northern Triangle are more crowded than ever.
           </div>
         </div>
       </div>
 
       <script src="01-chart.js"></script>
       <script src="scrollytelling.js"></script>
-
-   </body>
-</html>
+      
+    </body>
+    </html>
